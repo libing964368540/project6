@@ -1,0 +1,125 @@
+.clear:after {
+  clear: both;
+  height: 0;
+  content: "";
+  display: block; }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+#all {
+  background: #f2f7f8; }
+  #all #header {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    #all #header .logo {
+      width: 400px;
+      height: auto;
+      display: inline-block; }
+      #all #header .logo a {
+        display: inline-block; }
+        #all #header .logo a img {
+          display: block;
+          width: 100%;
+          height: auto; }
+  #all #content {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    box-sizing: border-box; }
+    #all #content #transit {
+      width: 100%;
+      height: 60px;
+      background: url("../img/huabian.svg") repeat 0 140px; }
+    #all #content .info {
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 40px;
+      height: auto; }
+      #all #content .info .left .book-img {
+        width: 100%;
+        height: auto; }
+        #all #content .info .left .book-img > img {
+          width: 100%;
+          height: auto;
+          display: block; }
+      #all #content .info .left .mapExport {
+        width: 100%;
+        height: auto;
+        position: relative; }
+        #all #content .info .left .mapExport a {
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 100%; }
+        #all #content .info .left .mapExport .map {
+          width: 80px;
+          height: 80px;
+          margin: 30px auto 10px auto; }
+          #all #content .info .left .mapExport .map > img {
+            width: 100%;
+            height: auto;
+            display: block; }
+        #all #content .info .left .mapExport > p {
+          font-size: 12px;
+          text-align: center;
+          color: #5c8aff; }
+      #all #content .info .right {
+        padding-left: 50px;
+        box-sizing: border-box; }
+        #all #content .info .right > h3 {
+          font-size: 24px;
+          display: block;
+          font-weight: bold;
+          margin: 0 0 20px 0; }
+        #all #content .info .right > b {
+          display: block;
+          margin-bottom: 20px; }
+        #all #content .info .right > h5 {
+          font-weight: bold;
+          margin-top: 35px; }
+        #all #content .info .right > p {
+          line-height: 2rem; }
+
+#footer {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 12px;
+  text-align: center;
+  background: #fff; }
+
+@media screen and (max-width: 992px) {
+  .logo {
+    width: 90% !important; }
+
+  .info {
+    width: 100% !important; }
+    .info .left .book-img {
+      width: 40% !important;
+      margin: 0 auto; }
+    .info .left .mapExport {
+      margin-bottom: 30px; }
+    .info .right {
+      padding: 15px !important;
+      box-sizing: border-box !important; }
+
+  #footer {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    line-height: 60px;
+    font-size: 12px;
+    text-align: center; } }
+
+/*# sourceMappingURL=show_page.css.map */
